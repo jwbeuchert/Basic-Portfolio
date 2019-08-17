@@ -7,6 +7,17 @@ h1 {
     padding-left: 180px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    height: 300px;
+  }
+
 div {
     border-top: 2px solid black;
 }
@@ -28,3 +39,27 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
