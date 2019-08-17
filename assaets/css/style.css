@@ -12,10 +12,8 @@ h1 {
   }
   
   .box {
-    margin: auto;
-    width: 75%;
-    padding: 50px;
-    height: 300px;
+    margin: 2em auto;
+    width: 960px;
   }
 
 div {
