@@ -1,3 +1,5 @@
+/* CSS for About Me */
+
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
@@ -35,9 +37,7 @@ li a {
 li {
   float: right;
 }
-.clearfix {
-  overflow: auto;
-}
+
 
 li a:hover {
   background-color: lightgrey;
@@ -74,6 +74,10 @@ ul {
     clear: both;
   }
 
+  .box4 {
+    width: 960px;
+  }
+
 body {
     background-color: mintcream;
 }
@@ -82,6 +86,8 @@ a:link, a:active, a:hover, a:visited {
     text-decoration: none;
   }
   
+  /* CSS for Contact */
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -120,7 +126,7 @@ a:link, a:active, a:hover, a:visited {
     width: 25%;
     margin-top: 6px;
   }
-  
+
   .row:after {
     content: "";
     display: table;
@@ -133,3 +139,40 @@ a:link, a:active, a:hover, a:visited {
       margin-top: 0;
     }
   }
+
+     /* CSS For Portfolio */
+    
+
+     .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+     
+    .line {
+      margin: 8px -16px;
+    }
+    
+    /* Add padding BETWEEN each column */
+    .line,
+    .line > .column {
+      padding: 8px;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+    }
+    
+    /* Clear floats after rows */ 
+    .line:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Content */
+    .article {
+      background-color: lightslategray;
+      padding: 10px;
+    }
