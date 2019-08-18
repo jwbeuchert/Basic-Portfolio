@@ -176,3 +176,14 @@ a:link, a:active, a:hover, a:visited {
       background-color: lightslategray;
       padding: 10px;
     }
+
+    footer { 
+      background-color: grey;
+      color: white;
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      width: 960px;
+      margin: 2em auto;
+      height: 50px;
+    }
