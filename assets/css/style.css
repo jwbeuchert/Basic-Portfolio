@@ -133,7 +133,21 @@ a:link, a:active, a:hover, a:visited {
     clear: both;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 640px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
@@ -187,3 +201,4 @@ a:link, a:active, a:hover, a:visited {
       margin: 2em auto;
       height: 50px;
     }
+
